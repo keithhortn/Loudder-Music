@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/user/public_html/email_projects/loudder_music
+    - /bin/cp index.html $DEPLOYPATH
